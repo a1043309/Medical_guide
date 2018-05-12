@@ -137,3 +137,8 @@
 		width: 1028px;
 	}
 }
+h1{
+	font-size: inherit;
+	margin: 0;
+	padding: 0;
+}

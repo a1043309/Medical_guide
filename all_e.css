@@ -24,16 +24,22 @@
 	font-size: 24px;
 	font-weight: bold;
 }
+.version a{
+	color: white;
+	font-family: 微軟正黑體;
+	font-size: 24px;
+	font-weight: bold;
+}
 .version a:hover{
 	color: yellow;
 }
 .intro_text{
 	color: white;
-	font-size: 84px;
+	font-size: 70px;
 	font-weight: bold;
 	font-family: 微軟正黑體;
 	text-align: center;
-	padding-top: 70px;
+	padding-top: 50px;
 	clear: both;
 }
 .intro_text p{
@@ -46,7 +52,7 @@
 	margin: auto;
 }
 .title_1{
-	width: 200px;
+	width: 400px;
 	height: 100px;
 	background-color: #2c2c32;
 	margin-top: 50px;
@@ -75,8 +81,10 @@
 	height: 175px;
 }
 .box_1 p{
-	font-family: 微軟正黑體;
+	font-family: Calibri;
 	font-size: 20px;
+	padding-left: 12px;
+	padding-right: 12px;
 	color: white;
 	text-align: center;
 }
@@ -95,6 +103,22 @@
 .button:hover{
 	background-color: #70c7be;
 }
+.button2{
+	width: 200px;
+	height: 70px;
+	background-color: #7f92cf;
+	margin-left: 50px;
+	margin-top: -14px;
+	font-family: 微軟正黑體;
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	line-height: 70px;
+}
+.button2:hover{
+	background-color: #70c7be;
+}
 .box_2{
 	width: 300px;
 	height: 175px;
@@ -105,8 +129,8 @@
 	float: left;
 }
 .box_2 p{
-	font-family: 微軟正黑體;
-	font-size: 20px;
+	font-family: Calibri;
+	font-size: 24px;
 	color: white;
 	text-align: center;
 }

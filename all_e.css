@@ -48,6 +48,7 @@
 	line-height: 40px;
 }
 .run{
+	width: cover;
 	height: 50px;
 	font-size: 24px;
 	font-family: 微軟正黑體;
@@ -55,6 +56,11 @@
 	line-height: 50px;
 	color: yellow;
 	background-color: #2c2c32;
+}
+@media (max-width: 1028px) {
+	.run{
+		width: 1028px;
+	}
 }
 .wrap{
 	width: 1028px;

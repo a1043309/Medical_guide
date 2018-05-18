@@ -6,6 +6,22 @@ $(function(){
 
 });
 
+$(function(){
+  
+  $('.title_3').on('click', function(){
+    $('.ask').slideToggle();
+  });
+
+});
+
+$(function(){
+  
+  $('.title_3').on('click', function(){
+    $('.reply').slideToggle();
+  });
+
+});
+
 function reset() {
     var subject = document.getElementById('subject');
     var con = document.getElementById('con');

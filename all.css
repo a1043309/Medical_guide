@@ -41,6 +41,26 @@
 	font-weight: normal;
 	line-height: 40px;
 }
+.run{
+	height: 50px;
+	font-size: 24px;
+	font-family: 微軟正黑體;
+	font-weight: bold;
+	line-height: 50px;
+	color: yellow;
+	background-color: #2c2c32;
+}
+/*
+.run2{
+	height: 50px;
+	font-size: 24px;
+	font-family: 微軟正黑體;
+	font-weight: bold;
+	line-height: 50px;
+	color: red;
+	background-color: #2c2c32;
+}
+*/
 .wrap{
 	width: 1028px;
 	margin: auto;
@@ -202,6 +222,7 @@
 	height: 100px;
 	background-color: #2c2c32;
 	margin-top: 50px;
+	margin-bottom: 50px;
 	position: relative;
 	clear: both;
 	display: block;
@@ -228,6 +249,54 @@
 	color: yellow;
 	text-align: center;
 	line-height: 100px;
+}
+.qa_all{
+	display: none;
+	width: 700px;
+	background-color: #2c2c32;
+	margin: auto;
+	margin-top: 50px;
+	display: block; 
+}
+.ask{
+	display: none;
+	width: 700px;
+	background-color: #2c2c32;
+	margin: auto;
+	display: block;
+	font-family: 微軟正黑體;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	margin-top: 30px;
+	padding: 5px 50px 5px 50px;
+}
+.ask p{
+	font-family: 微軟正黑體;
+	font-size: 20px;
+	font-weight: normal;
+	color: white;
+}
+.reply{
+	display: none;
+	width: 700px;
+	background-color: #383840 ;
+	margin: auto;
+	display: block;
+	font-family: 微軟正黑體;
+	font-size: 20px;
+	font-weight: bold;
+	color: yellow;
+	padding: 5px 50px 5px 50px;
+	text-align: right;
+	margin-bottom: 50px;
+}
+.reply p{
+	font-family: 微軟正黑體;
+	font-size: 20px;
+	font-weight: normal;
+	color: yellow;
+	text-align: right;
 }
 .footer{
 	width: cover;
